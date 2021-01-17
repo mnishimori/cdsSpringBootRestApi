@@ -21,7 +21,7 @@ import org.springframework.web.server.ResponseStatusException;
 import br.com.digitalzyon.domain.model.Cliente;
 import br.com.digitalzyon.domain.repository.ClienteRepository;
 
-//@CrossOrigin
+// @CrossOrigin
 @RestController
 @RequestMapping("/api/clientes")
 public class ClienteController {
